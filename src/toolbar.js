@@ -7,23 +7,19 @@ export default class Toolbar extends React.Component {
             previewVisible: false
         };
     }
-
     showPreview() {
         this.setState({
-            previewVisible: true,
+            previewVisible: true
         });
     }
-
     deleteForm() {
-        localStorage.clear();
+        this.props.clearForm();
     }
-
     closePreview() {
         this.setState({
-            previewVisible: false,
+            previewVisible: false
         });
     }
-
     render() {
         var modelVisible = this.state.previewVisible ? '' : 'hidden';
         return (<div>
