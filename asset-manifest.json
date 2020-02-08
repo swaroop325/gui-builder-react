@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/my-app/static/css/main.26fc6cbf.chunk.css",
-    "main.js": "/my-app/static/js/main.580a9481.chunk.js",
-    "main.js.map": "/my-app/static/js/main.580a9481.chunk.js.map",
-    "runtime-main.js": "/my-app/static/js/runtime-main.955b7274.js",
-    "runtime-main.js.map": "/my-app/static/js/runtime-main.955b7274.js.map",
-    "static/css/2.7b050a0a.chunk.css": "/my-app/static/css/2.7b050a0a.chunk.css",
-    "static/js/2.bd6f295c.chunk.js": "/my-app/static/js/2.bd6f295c.chunk.js",
-    "static/js/2.bd6f295c.chunk.js.map": "/my-app/static/js/2.bd6f295c.chunk.js.map",
-    "index.html": "/my-app/index.html",
-    "precache-manifest.0e7a106baa118cb3b5b73a69650b54ac.js": "/my-app/precache-manifest.0e7a106baa118cb3b5b73a69650b54ac.js",
-    "service-worker.js": "/my-app/service-worker.js",
-    "static/css/2.7b050a0a.chunk.css.map": "/my-app/static/css/2.7b050a0a.chunk.css.map",
-    "static/css/main.26fc6cbf.chunk.css.map": "/my-app/static/css/main.26fc6cbf.chunk.css.map",
-    "static/js/2.bd6f295c.chunk.js.LICENSE.txt": "/my-app/static/js/2.bd6f295c.chunk.js.LICENSE.txt",
-    "static/media/font-awesome.min.css": "/my-app/static/media/fontawesome-webfont.dfb02f8f.woff"
+    "main.css": "/gui-builder-react/static/css/main.4b17e0f3.chunk.css",
+    "main.js": "/gui-builder-react/static/js/main.3c54eb3e.chunk.js",
+    "main.js.map": "/gui-builder-react/static/js/main.3c54eb3e.chunk.js.map",
+    "runtime-main.js": "/gui-builder-react/static/js/runtime-main.be0d8610.js",
+    "runtime-main.js.map": "/gui-builder-react/static/js/runtime-main.be0d8610.js.map",
+    "static/css/2.7b050a0a.chunk.css": "/gui-builder-react/static/css/2.7b050a0a.chunk.css",
+    "static/js/2.bd6f295c.chunk.js": "/gui-builder-react/static/js/2.bd6f295c.chunk.js",
+    "static/js/2.bd6f295c.chunk.js.map": "/gui-builder-react/static/js/2.bd6f295c.chunk.js.map",
+    "index.html": "/gui-builder-react/index.html",
+    "precache-manifest.4a97ba37c667e8356780c7498f3baaa5.js": "/gui-builder-react/precache-manifest.4a97ba37c667e8356780c7498f3baaa5.js",
+    "service-worker.js": "/gui-builder-react/service-worker.js",
+    "static/css/2.7b050a0a.chunk.css.map": "/gui-builder-react/static/css/2.7b050a0a.chunk.css.map",
+    "static/css/main.4b17e0f3.chunk.css.map": "/gui-builder-react/static/css/main.4b17e0f3.chunk.css.map",
+    "static/js/2.bd6f295c.chunk.js.LICENSE.txt": "/gui-builder-react/static/js/2.bd6f295c.chunk.js.LICENSE.txt",
+    "static/media/font-awesome.min.css": "/gui-builder-react/static/media/fontawesome-webfont.dfb02f8f.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.955b7274.js",
+    "static/js/runtime-main.be0d8610.js",
     "static/css/2.7b050a0a.chunk.css",
     "static/js/2.bd6f295c.chunk.js",
-    "static/css/main.26fc6cbf.chunk.css",
-    "static/js/main.580a9481.chunk.js"
+    "static/css/main.4b17e0f3.chunk.css",
+    "static/js/main.3c54eb3e.chunk.js"
   ]
 }
