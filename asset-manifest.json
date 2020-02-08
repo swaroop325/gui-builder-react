@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/gui-builder-react/static/css/main.4b17e0f3.chunk.css",
-    "main.js": "/gui-builder-react/static/js/main.3c54eb3e.chunk.js",
-    "main.js.map": "/gui-builder-react/static/js/main.3c54eb3e.chunk.js.map",
+    "main.js": "/gui-builder-react/static/js/main.7aa2f882.chunk.js",
+    "main.js.map": "/gui-builder-react/static/js/main.7aa2f882.chunk.js.map",
     "runtime-main.js": "/gui-builder-react/static/js/runtime-main.be0d8610.js",
     "runtime-main.js.map": "/gui-builder-react/static/js/runtime-main.be0d8610.js.map",
-    "static/css/2.7b050a0a.chunk.css": "/gui-builder-react/static/css/2.7b050a0a.chunk.css",
-    "static/js/2.bd6f295c.chunk.js": "/gui-builder-react/static/js/2.bd6f295c.chunk.js",
-    "static/js/2.bd6f295c.chunk.js.map": "/gui-builder-react/static/js/2.bd6f295c.chunk.js.map",
+    "static/css/2.de7271a4.chunk.css": "/gui-builder-react/static/css/2.de7271a4.chunk.css",
+    "static/js/2.60f548c0.chunk.js": "/gui-builder-react/static/js/2.60f548c0.chunk.js",
+    "static/js/2.60f548c0.chunk.js.map": "/gui-builder-react/static/js/2.60f548c0.chunk.js.map",
     "index.html": "/gui-builder-react/index.html",
-    "precache-manifest.4a97ba37c667e8356780c7498f3baaa5.js": "/gui-builder-react/precache-manifest.4a97ba37c667e8356780c7498f3baaa5.js",
+    "precache-manifest.598fe6e129ea8f98e8d7a9f89f9e0bd4.js": "/gui-builder-react/precache-manifest.598fe6e129ea8f98e8d7a9f89f9e0bd4.js",
     "service-worker.js": "/gui-builder-react/service-worker.js",
-    "static/css/2.7b050a0a.chunk.css.map": "/gui-builder-react/static/css/2.7b050a0a.chunk.css.map",
+    "static/css/2.de7271a4.chunk.css.map": "/gui-builder-react/static/css/2.de7271a4.chunk.css.map",
     "static/css/main.4b17e0f3.chunk.css.map": "/gui-builder-react/static/css/main.4b17e0f3.chunk.css.map",
-    "static/js/2.bd6f295c.chunk.js.LICENSE.txt": "/gui-builder-react/static/js/2.bd6f295c.chunk.js.LICENSE.txt",
+    "static/js/2.60f548c0.chunk.js.LICENSE.txt": "/gui-builder-react/static/js/2.60f548c0.chunk.js.LICENSE.txt",
     "static/media/font-awesome.min.css": "/gui-builder-react/static/media/fontawesome-webfont.dfb02f8f.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.be0d8610.js",
-    "static/css/2.7b050a0a.chunk.css",
-    "static/js/2.bd6f295c.chunk.js",
+    "static/css/2.de7271a4.chunk.css",
+    "static/js/2.60f548c0.chunk.js",
     "static/css/main.4b17e0f3.chunk.css",
-    "static/js/main.3c54eb3e.chunk.js"
+    "static/js/main.7aa2f882.chunk.js"
   ]
 }
