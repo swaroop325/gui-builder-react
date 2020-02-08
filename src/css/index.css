@@ -20,3 +20,17 @@ code {
 .hidden{
   display: none;
 }
+.generated{
+  padding: 5%;
+}
+.formGenerated{
+  margin: 25% 5%;
+}
+canvas{
+  position: fixed !important;
+}
+.react-form-builder .react-form-builder-toolbar{
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px 0px;
+    border: 1px solid #7a0019;
+}

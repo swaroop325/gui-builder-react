@@ -51,9 +51,9 @@ class GUIBuilder extends React.Component {
                             onPost={this.onPost} />
                     </div>
                 </div>
-                <div className={`FormGenerated ${formVisible}`}>
-                    <div className="modal-dialog">
-                        <div className="modal-content">
+                <div className={`formGenerated ${formVisible}`}>
+                    <div className="modal-dialog form-generated">
+                        <div className="modal-content generated">
                             <ReactFormGenerator
                                 read_only={true}
                                 hide_actions={true}
