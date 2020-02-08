@@ -8,7 +8,6 @@ class GUIBuilder extends React.Component {
         super(props)
         this.state = {
             data: [],
-            flushed: true,
             previewVisible: false
         };
         this.clearForm = this.clearForm.bind(this);
@@ -24,15 +23,22 @@ class GUIBuilder extends React.Component {
     showPreview() {
         this.setState({ previewVisible: true });
     }
+    closeForm() {
+        this.setState({ previewVisible: false });
+    }
     clearForm() {
-        this.setState({ flushed: !this.state.flushed });
+        this.setState({ data: [] });
     }
     onPost = (data) => {
         localStorage.setItem("formData", JSON.stringify(data))
+        this.setState({ data: data });
+
     }
     render() {
-        var builderVisible = this.state.previewVisible ? 'hidden' : '';
         var formData = this.state.data.task_data ? this.state.data.task_data : [];
+        var builderVisible = this.state.previewVisible ? 'hidden' : '';
+        var formVisible = this.state.previewVisible ? '' : 'hidden';
+
         return (
             <div>
                 <div className={`page ${builderVisible}`}>
@@ -45,13 +51,14 @@ class GUIBuilder extends React.Component {
                             onPost={this.onPost} />
                     </div>
                 </div>
-                <div className="FormGenerated">
+                <div className={`FormGenerated ${formVisible}`}>
                     <div className="modal-dialog">
                         <div className="modal-content">
                             <ReactFormGenerator
                                 read_only={true}
                                 hide_actions={true}
                                 data={formData} />
+                            <button className="btn btn-primary closeBtn" style={{ marginRight: '10px' }} onClick={this.closeForm.bind(this)}>Close</button>
                         </div>
                     </div>
                 </div>

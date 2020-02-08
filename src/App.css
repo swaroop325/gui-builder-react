@@ -54,7 +54,9 @@
 .gui-builder{
   margin: 5% 5%;
 }
-
+.closeBtn{
+  margin: 5%;
+}
 @media (max-width: 768px){
   .react-form-builder .react-form-builder-toolbar {
     position: absolute;
