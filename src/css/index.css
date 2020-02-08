@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.react-form-builder .react-form-builder-preview{
+  float: left;
+}
+.react-form-builder .react-form-builder-toolbar{
+  float: right;
+}

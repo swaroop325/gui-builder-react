@@ -1,12 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Homepage from './Form';
+import GUIBuilder from './formBuilder';
 
 function App() {
   return (
     <div className="App">
-      <Homepage />
+      <GUIBuilder />
     </div>
   );
 }

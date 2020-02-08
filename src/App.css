@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+.react-form-builder .react-form-builder-toolbar{
+  margin: 0;
+}
+.react-form-builder .react-form-builder-toolbar h4{
+    padding: 10px;
+    background: #7a0019;
+    color: #fff;
+}
+.react-form-builder .react-form-builder-preview{
+  min-height: 64rem;
+}
+.heading{
+  margin: 5% auto; 
+}
+
+.gui-builder{
+  margin: 5% 5%;
+}
+
+@media (max-width: 768px){
+  .react-form-builder .react-form-builder-toolbar {
+    position: absolute;
+  }
+  .react-form-builder .react-form-builder-preview{
+    min-height: 25rem;
+    margin-bottom: 20%;
+  }
+  .static{
+    font-size: 0.85rem;
+  }
+  .react-form-builder .react-form-builder-preview .Sortable .rfb-item .toolbar-header .label{
+    left: 0;
+  }
+}
