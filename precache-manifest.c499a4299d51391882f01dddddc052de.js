@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c6835b7674a573d661569fa7d9403520",
+    "revision": "c957c556b544390e29fe91a61149bce0",
     "url": "/gui-builder-react/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gui-builder-react/static/css/2.de7271a4.chunk.css"
   },
   {
-    "revision": "5ffedb17a9e2b9d23383",
-    "url": "/gui-builder-react/static/css/main.810b6a77.chunk.css"
+    "revision": "a9f4d6c185259eafbe97",
+    "url": "/gui-builder-react/static/css/main.f4088fe5.chunk.css"
   },
   {
     "revision": "e9f2aabb997967b48798",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gui-builder-react/static/js/2.eddd9227.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5ffedb17a9e2b9d23383",
-    "url": "/gui-builder-react/static/js/main.b1d1698d.chunk.js"
+    "revision": "a9f4d6c185259eafbe97",
+    "url": "/gui-builder-react/static/js/main.8b2a81c0.chunk.js"
   },
   {
     "revision": "e6fab12584d6094e0e87",
