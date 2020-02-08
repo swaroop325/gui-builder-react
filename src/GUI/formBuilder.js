@@ -2,6 +2,7 @@
 import React from 'react'
 import { ReactFormBuilder, ReactFormGenerator } from 'react-form-builder2';
 import Toolbar from './toolbar'
+import ParticlesBg from 'particles-bg'
 
 class GUIBuilder extends React.Component {
     constructor(props) {
@@ -25,6 +26,7 @@ class GUIBuilder extends React.Component {
     }
     closeForm() {
         this.setState({ previewVisible: false });
+        window.location.reload();
     }
     clearForm() {
         this.setState({ data: [] });
@@ -41,9 +43,11 @@ class GUIBuilder extends React.Component {
 
         return (
             <div>
+                <ParticlesBg type="fountain" bg={true} />
                 <div className={`page ${builderVisible}`}>
                     <div className="toolbar">
-                        <Toolbar clearForm={this.clearForm} showPreview={this.showPreview} data={this.state.data} />
+                        <Toolbar clearForm={this.clearForm} showPreview={this.showPreview}
+                            data={formData} />
                     </div>
                     <div className="gui-builder">
                         <ReactFormBuilder

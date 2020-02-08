@@ -21,7 +21,7 @@
     border-radius: 18px;
 }
 .react-form-builder .react-form-builder-preview{
-  min-height: 64rem;
+  min-height: 65rem;
   padding: 5%;
   box-shadow: 5px 5px 15px 0px;
   border-radius: 20px;
@@ -29,7 +29,6 @@
 .heading{
   margin: 5% auto; 
 }
-
 .gui-builder{
   margin: 5% 5%;
 }
