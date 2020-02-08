@@ -1,34 +1,32 @@
 import React from 'react';
-
+import { Redirect } from 'react-router-dom';
 export default class Toolbar extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            previewVisible: false
-        };
+    state = {
+        redirect: false
+    }
+    generateForm = () => {
+        this.setState({
+            redirect: true
+        })
     }
     showPreview() {
-        this.setState({
-            previewVisible: true
-        });
+        if (this.state.redirect) {
+            return <Redirect to='/form' />
+        }
     }
     deleteForm() {
+        localStorage.clear();
         this.props.clearForm();
     }
-    closePreview() {
-        this.setState({
-            previewVisible: false
-        });
-    }
     render() {
-        var modelVisible = this.state.previewVisible ? '' : 'hidden';
         return (<div>
+            {this.showPreview()}
             <h4 className="heading">MSD GUI BUILDER</h4>
             <div className="buttons">
-
-                <button className="btn btn-primary formBtn" style={{ marginRight: '10px' }} onClick={this.showPreview.bind(this)}>Preview Form</button>
+                <button className="btn btn-primary formBtn" style={{ marginRight: '10px' }} onClick={this.generateForm.bind(this)}>Generate Form</button>
                 <button className="btn btn-primary formBtn" style={{ marginRight: '10px' }} onClick={this.deleteForm.bind(this)}>Clear Form</button>
-            </div></div>
+            </div>
+        </div>
         );
     }
 }
