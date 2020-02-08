@@ -1,18 +1,8 @@
 import React from 'react';
 import { Redirect } from 'react-router-dom';
 export default class Toolbar extends React.Component {
-    state = {
-        redirect: false
-    }
     generateForm = () => {
-        this.setState({
-            redirect: true
-        })
-    }
-    showPreview() {
-        if (this.state.redirect) {
-            return <Redirect to='/form' />
-        }
+        this.props.showPreview();
     }
     deleteForm() {
         localStorage.clear();

@@ -17,3 +17,6 @@ code {
 .react-form-builder .react-form-builder-toolbar{
   float: right;
 }
+.hidden{
+  display: none;
+}
