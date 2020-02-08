@@ -14,6 +14,10 @@ class GUIBuilder extends React.Component {
         this.clearForm = this.clearForm.bind(this);
         this.showPreview = this.showPreview.bind(this);
     }
+    componentDidCatch(){
+        localStorage.clear();
+        window.location.reload();
+    }
     componentDidMount() {
         if (localStorage.getItem("formData")) {
             this.setState({ data: JSON.parse(localStorage.getItem("formData")) });
