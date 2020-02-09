@@ -17,6 +17,7 @@ class GUIBuilder extends React.Component {
     componentDidCatch(){
         localStorage.clear();
         window.location.reload();
+        alert("Due to some error, ui could not be generated");
     }
     componentDidMount() {
         if (localStorage.getItem("formData")) {
@@ -38,13 +39,12 @@ class GUIBuilder extends React.Component {
     onPost = (data) => {
         localStorage.setItem("formData", JSON.stringify(data))
         this.setState({ data: data });
-
     }
     render() {
         var formData = this.state.data.task_data ? this.state.data.task_data : [];
+        var formGeneratedData = this.state.previewVisible && this.state.data.length !== 0 ? this.state.data.task_data : [];
         var builderVisible = this.state.previewVisible ? 'hidden' : '';
         var formVisible = this.state.previewVisible ? '' : 'hidden';
-
         return (
             <div>
                 <ParticlesBg type="fountain" bg={true} />
@@ -65,7 +65,7 @@ class GUIBuilder extends React.Component {
                             <ReactFormGenerator
                                 read_only={true}
                                 hide_actions={true}
-                                data={formData} />
+                                data={formGeneratedData} />
                             <button className="btn btn-primary closeBtn" style={{ marginRight: '10px' }} onClick={this.closeForm.bind(this)}>Close</button>
                         </div>
                     </div>
