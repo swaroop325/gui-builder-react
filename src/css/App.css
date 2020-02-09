@@ -16,7 +16,7 @@
 }
 .react-form-builder .react-form-builder-toolbar h4{
     padding: 10px;
-    background: #7a0019;
+    background: #007bff;
     color: #fff;
     border-radius: 18px;
 }
@@ -30,10 +30,10 @@
   margin: 5% auto; 
 }
 .gui-builder{
-  margin: 5% 5%;
+  margin: 2% 5%;
 }
 .closeBtn{
-  margin: 5%;
+  margin: 2%;
 }
 @media (max-width: 768px){
   .react-form-builder .react-form-builder-toolbar {
@@ -51,5 +51,20 @@
   }
 }
 li:hover{
-  background-color: khaki;
+  background-color: #dcdcdc;
+}
+.fa{
+  margin-right: 5px;
+}
+.toolbar{
+  margin: 0% 5%;
+  display: flow-root;
+}
+svg{
+  width: 20%;
+  float: left;
+  padding: 14px;
+  margin-top: 2%;
+  margin-left: 2%;
+  background: #1c1c28;
 }

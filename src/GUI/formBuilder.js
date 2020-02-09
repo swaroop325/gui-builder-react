@@ -47,7 +47,7 @@ class GUIBuilder extends React.Component {
         var formVisible = this.state.previewVisible ? '' : 'hidden';
         return (
             <div>
-                <ParticlesBg type="fountain" bg={true} />
+                <ParticlesBg type="square" bg={true} />
                 <div className={`page ${builderVisible}`}>
                     <div className="toolbar">
                         <Toolbar clearForm={this.clearForm} showPreview={this.showPreview}
