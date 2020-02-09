@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c2fa6b136318dd1871bf9acdc137d354",
+    "revision": "819eefe0d7005a20837d559eb26e1474",
     "url": "/gui-builder-react/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gui-builder-react/static/css/2.de7271a4.chunk.css"
   },
   {
-    "revision": "d447fc1b6b86ea3b56ca",
-    "url": "/gui-builder-react/static/css/main.f014e396.chunk.css"
+    "revision": "122896943bb20526c2e8",
+    "url": "/gui-builder-react/static/css/main.e4c7602f.chunk.css"
   },
   {
     "revision": "e9f2aabb997967b48798",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gui-builder-react/static/js/2.eddd9227.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d447fc1b6b86ea3b56ca",
-    "url": "/gui-builder-react/static/js/main.e5fe6f0a.chunk.js"
+    "revision": "122896943bb20526c2e8",
+    "url": "/gui-builder-react/static/js/main.707d36d0.chunk.js"
   },
   {
     "revision": "e6fab12584d6094e0e87",
@@ -46,5 +46,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "dfb02f8f6d0cedc009ee5887cc68f1f3",
     "url": "/gui-builder-react/static/media/fontawesome-webfont.dfb02f8f.woff"
+  },
+  {
+    "revision": "8f9d38105d06c3a7fad03a71bc396dc8",
+    "url": "/gui-builder-react/static/media/msd-logo.8f9d3810.svg"
   }
 ]);
